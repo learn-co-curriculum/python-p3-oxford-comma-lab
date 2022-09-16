@@ -10,7 +10,7 @@ class TestOxfordComma:
         assert(oxford_comma(["kiwi"]) == "kiwi")
 
     def test_with_two_elements(self):
-        '''adds "and" between elements when given a 2-element '''
+        '''adds "and" between elements when given a 2-element list'''
         assert(oxford_comma(["kiwi", "durian"]) == "kiwi and durian")
 
     def test_with_three_elements(self):
